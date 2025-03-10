@@ -31,7 +31,7 @@
 		"maintenance": 3,
 		"requiredTech": "Plastics",
 		"uniques": [
-			"[+2 Gold] from [Science] buildings [in this city]",
+			"[+1 Gold] from all [Science] buildings [in this city]",
 			"[+1 Science] from [Trade Routes] [in this city]"
 		]
 	}
