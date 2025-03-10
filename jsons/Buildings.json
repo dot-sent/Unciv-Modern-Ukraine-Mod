@@ -1,25 +1,34 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Bursa",
+		"replaces": "Public School",
+		"uniqueTo": "Ukrainians",
+		"science": 4,
+		"specialistSlots": {
+			"Scientist": 1
+		},
+		"requiredBuilding": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]"
+		],
+		"requiredTech": "Scientific Theory"
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"name": "Zoloti Vorota",
+		"replaces": "Walls",
+		"uniqueTo": "Ukraine",
+		"cost": 65,
+		"cityStrength": 6,
+		"cityHealth": 50,
+		"culture": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Destroyed when the city is captured",
+			"[+1 Culture] from [Stone] tiles [in this city]"
+		],
+		"requiredTech": "Masonry"
 	}
 ]
