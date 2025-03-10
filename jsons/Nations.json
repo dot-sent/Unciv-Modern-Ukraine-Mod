@@ -68,8 +68,8 @@
 		],
 		"uniqueName": "Legacy of Kyivan Rus",
 		"uniques": [
-			"Gain a free [Library] in Capital <upon discovering [Writing] technology>",
-			"[+15]% Great Person generation",
+			"Gain a free [Library] [in Capital] <upon discovering [Writing] technology>",
+			"[+15]% Great Person generation [in all cities]",
 			"[-15]% maintenance costs <for [All] units>"
 		],
 		"cities": [
