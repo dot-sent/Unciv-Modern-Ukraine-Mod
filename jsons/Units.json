@@ -14,7 +14,7 @@
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"[+15]% Strength <when fighting in [Friendly Land]>",
+			"[+15]% Strength <when fighting in [Friendly Land] tiles>",
 			"Heals [25] damage if it kills a unit"
 		],
 		"attackSound": "horse"
@@ -32,7 +32,7 @@
 		"requiredTech": "Rocketry",
 		"uniques": [
 			"No defensive terrain bonus",
-			"Limited Visibility",
+			"[-1] Sight",
 			"[+25]% Strength <vs [Armored] units>",
 			"Must set up to ranged attack",
 			"Can move after attacking"
