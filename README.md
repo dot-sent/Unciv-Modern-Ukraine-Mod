@@ -1,5 +1,3 @@
-# Unciv-mod-example
+# Unciv-Modern-Ukraine-Mod
 
-An example mod for Unciv, that adds one new Civilization.
-
-For information on how to build and use mods, please refer to [the setup instructions](https://yairm210.github.io/Unciv/Modders/Making-a-new-Civilization/)
+A new Civilization mode for the Unciv game (https://github.com/yairm210/Unciv) that contains a Ukrainian civilization, tweaked in line with current historical events.
