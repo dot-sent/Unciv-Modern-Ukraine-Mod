@@ -1,21 +1,5 @@
 [
 	{
-		"name": "Bursa",
-		"replaces": "Public School",
-		"uniqueTo": "Ukrainians",
-		"science": 4,
-		"specialistSlots": {
-			"Scientist": 1
-		},
-		"requiredBuilding": "University",
-		"maintenance": 2,
-		"hurryCostModifier": 0,
-		"uniques": [
-			"[+1 Science] per [2] population [in this city]"
-		],
-		"requiredTech": "Scientific Theory"
-	},
-	{
 		"name": "Zoloti Vorota",
 		"replaces": "Walls",
 		"uniqueTo": "Ukraine",
@@ -30,5 +14,25 @@
 			"[+1 Culture] from [Stone] tiles [in this city]"
 		],
 		"requiredTech": "Masonry"
+	},
+	{
+		"name": "IT Hub",
+		"replaces": "Research Lab",
+		"uniqueTo": "Ukraine",
+		"science": 4,
+		"gold": 3,
+		"percentStatBonus": {
+			"science": 40
+		},
+		"specialistSlots": {
+			"Scientist": 2
+		},
+		"requiredBuilding": "Public School",
+		"maintenance": 3,
+		"requiredTech": "Plastics",
+		"uniques": [
+			"[+2 Gold] from [Science] buildings [in this city]",
+			"[+1 Science] from [Trade Routes] [in this city]"
+		]
 	}
 ]
