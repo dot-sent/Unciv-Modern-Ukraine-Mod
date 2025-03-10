@@ -20,22 +20,28 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "HIMARS",
+		"name": "Vilkha",
 		"unitType": "Siege",
 		"replaces": "Rocket Artillery",
 		"uniqueTo": "Ukraine",
-		"movement": 3,
-		"strength": 35,
-		"rangedStrength": 70,
-		"range": 3,
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 65,
+		"range": 4,
 		"cost": 425,
 		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
 		"uniques": [
+			"[+50]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[-1] Sight",
-			"[+25]% Strength <vs [Armored] units>",
+			"[+75]% Strength <vs [Armored] units>",
 			"Must set up to ranged attack",
-			"Can move after attacking"
+			"Can move after attacking",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Indirect Fire"
 		],
 		"attackSound": "missile"
 	}
